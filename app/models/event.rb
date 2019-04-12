@@ -11,6 +11,8 @@
 #
 
 class Event < ApplicationRecord
+  has_many :event_actions
+  has_many :actions, through: :event_actions
   validates :object, presence: true
   validates :state, presence: true
 end

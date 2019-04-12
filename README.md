@@ -1,6 +1,6 @@
 # README
 
-Generalized event logging for application state changes.
+Generalized event logging for application state changes as well as trigger actions on those events.
 
 Things you may want to cover:
 
